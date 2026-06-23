@@ -409,7 +409,7 @@ export default function App() {
                 </div>
                 <div>
                   <span className="text-[10px] font-extrabold tracking-wider text-gray-400 uppercase block mb-0.5">Email</span>
-                  <a href="mailto:mohamednafeezkm2006@gmail.com" className="text-xs font-bold text-gray-700 dark:text-gray-200 hover:underline break-all">mohamednafeezkm2006@gmail.com</a>
+                  <a href="mailto:mdnafeez20@gmail.com" className="text-xs font-bold text-gray-700 dark:text-gray-200 hover:underline break-all">mohamednafeezkm2006@gmail.com</a>
                 </div>
               </div>
 
