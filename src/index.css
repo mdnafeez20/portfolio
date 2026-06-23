@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Custom Theme Variables & Utilities for your Portfolio */
+@theme {
+  --color-primary: #7c3aed;    /* Vibrant Purple-600 */
+  --color-secondary: #6d28d9;  /* Deep Purple-700 */
+  --color-accent: #f5f3ff;     /* Light Purple Tint */
+}
+
+/* Glassmorphism styling effect used across your layout cards */
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .glass-card {
+  background-color: rgba(17, 24, 39, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Smooth scrolling across section transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar matching your theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c084fc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
